@@ -6,6 +6,7 @@ import portfolioItems from '../data/portfolioData';
 function PortfolioDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
+  console.log(id);
 
   const item = portfolioItems.find((p) => p.id === Number(id));
 
