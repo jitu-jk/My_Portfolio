@@ -4,7 +4,7 @@ import PortfolioDetail from "./components/PortfolioDetail";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/My_Portfolio">
       <Routes>
         <Route path="/" element={<MainContent />} />
         <Route path="/portfolio/:id" element={<PortfolioDetail />} />

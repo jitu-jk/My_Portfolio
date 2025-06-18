@@ -2,6 +2,7 @@ import { FaHome, FaUser, FaFileAlt, FaImages, FaServicestack, FaEnvelope, FaChev
 import { FaXTwitter } from "react-icons/fa6";
 import './Sidebar.css';
 import { useState } from "react";
+import profileImg from '../assets/profile.png';
 
 const Sidebar = ({ disabled }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -24,7 +25,7 @@ const Sidebar = ({ disabled }) => {
       <div className={`bg-dark text-white d-flex flex-column align-items-center p-3 sidebar${sidebarOpen ? ' open' : ''}`}>
         {/* Close button for mobile */}
         <button className="sidebar-close" onClick={() => setSidebarOpen(false)}><FaTimes /></button>
-        <img src="/src/assets/profile.png" alt="profile" className="rounded-circle mb-2" width="150" />
+        <img src={profileImg} alt="profile" className="rounded-circle mb-2" width="150" />
         <h5>Jitesh Kumar</h5>
         <div className="d-flex gap-3 mb-4 mt-2">
           <a className="icon-x-twitter" href="https://x.com/jitu__jk?s=09" target="_blank"rel="noopener noreferrer"><FaXTwitter /></a>

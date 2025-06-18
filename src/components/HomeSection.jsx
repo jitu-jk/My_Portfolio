@@ -1,4 +1,5 @@
 import React from "react";
+import profileImg from '../assets/profile.png';
 
 const HomeSection = () => {
   return (
@@ -26,7 +27,7 @@ const HomeSection = () => {
 
       {/* Background image */}
       <img
-        src="/src/assets/profile.png" // <-- Change to your image path
+        src={profileImg}
         alt="Jitesh Kumar"
         style={{
           position: 'absolute',
