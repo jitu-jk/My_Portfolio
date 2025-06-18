@@ -54,7 +54,7 @@ function PortfolioDetail() {
                 <div><b>Category:</b> {item.category}</div>
                 <div><b>Technology:</b> {item.technology}</div>
                 <div><b>Project date:</b> {item.date}</div>
-                <div><b>Project URL:</b> <a href={`https://${item.url}`} target="_blank" rel="noopener noreferrer" style={{ color: '#2196f3' }}>{item.url}</a></div>
+                <div><b>Project URL:</b> <a href={`${item.url}`} target="_blank" rel="noopener noreferrer" style={{ color: '#2196f3' }}>{item.url}</a></div>
               </div>
             </div>
             <div style={{ background: '#fff', borderRadius: 8, boxShadow: '0 2px 16px rgba(0,0,0,0.07)', padding: 32 }}>
