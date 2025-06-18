@@ -20,7 +20,7 @@ const portfolioItems = [
     description: 'Weather App',
     technology: 'React, OpenWeatherMap API',
     date: '2024-02-15',
-    url: 'https://jitu-jk.github.io/weather/',
+    url: 'jitu-jk.github.io/weather/',
     info: 'A weather app showing real-time weather data.'
   },
   {
