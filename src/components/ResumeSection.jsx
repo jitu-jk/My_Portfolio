@@ -88,7 +88,7 @@ const ResumeSection = () => (
             marginLeft: '250px',
           }}
         >
-          Preview & Download
+          Preview Resume
         </a>
       </div>
       <div style={sectionUnderlineStyle}></div>
