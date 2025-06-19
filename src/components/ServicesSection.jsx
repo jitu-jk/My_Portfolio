@@ -39,7 +39,7 @@ const ServicesSection = () => (
           <h3 style={{ fontWeight: 700, fontSize: '1.2rem', marginBottom: 8 }}>AI/ML Training</h3>
           <p style={{ color: '#555' }}>Delivering hands-on training in Artificial Intelligence, Machine Learning, and Python.</p>
         </div>
-        <div className="service-card" style={{ background: '#CCDFE6', borderRadius: 12, boxShadow: '0 2px 16px rgba(0,0,0,0.07)', padding: 32, width: 320, textAlign: 'center', transition: 'transform 0.2s, box-shadow 0.2s', cursor: 'pointer' }}>
+        <div className="service-card" onClick={() => window.open('https://coenoida.in', '_blank')} style={{ background: '#CCDFE6', borderRadius: 12, boxShadow: '0 2px 16px rgba(0,0,0,0.07)', padding: 32, width: 320, textAlign: 'center', transition: 'transform 0.2s, box-shadow 0.2s', cursor: 'pointer' }}>
           <div style={{ fontSize: 40, marginBottom: 16 }}>🌐</div>
           <h3 style={{ fontWeight: 700, fontSize: '1.2rem', marginBottom: 8 }}>WordPress Development</h3>
           <p style={{ color: '#555' }}>Custom WordPress site development, theme customization, and maintenance.</p>

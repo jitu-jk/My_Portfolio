@@ -109,7 +109,8 @@ const ResumeSection = () => (
               <li>East Champaran, Bihar</li>
               <li>91-8292195642</li>
               <li>jitesh62684@gmail.com</li>
-              <a href='https://www.linkedin.com/in/jiteshkumarjk/'Linkedin></a>
+             <li><a href="https://www.linkedin.com/in/jiteshkumarjk/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://github.com/jitu-jk" target="_blank">GitHub</a></li>
             </ul>
           </div>
           <div style={sectionTitle}>Education</div>
@@ -153,7 +154,7 @@ const ResumeSection = () => (
             <div style={{ fontWeight: 600, fontSize: '1.1rem', color: '#444' }}>WordPress Developer and AI/ML Trainer</div>
             <div style={{ fontWeight: 700, color: '#222', margin: '6px 0' }}>NIELIT Noida | 2024/09 - 2025/03</div>
             <ul style={{ margin: 0, paddingLeft: '18px', color: '#333', fontSize: '1rem' }}>
-              <li><b>WordPress Development:</b> Led the design, development, and maintenance of the official website for NIELIT Noida, delivering a scalable, responsive, and user-centric platform.</li>
+              <li><b>WordPress Development:</b> Led the design, development, and maintenance of the official website for NIELIT Noida, <a href="https://coenoida.in/" target="_blank">coenoida.in</a>, delivering a scalable, responsive, and user-centric platform.</li>
               <li><b>AI/ML Trainer:</b> Delivered comprehensive training on AI, Machine Learning, and Python for Kendriya Vidyalaya Sangathan, focusing on practical applications and hands-on projects.</li>
             </ul>
           </div>
