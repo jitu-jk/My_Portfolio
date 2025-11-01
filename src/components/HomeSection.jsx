@@ -1,5 +1,6 @@
 import React from "react";
-import profileImg from '../assets/profile.png';
+import profileImg from "../assets/profile.png";
+import profilePic from " ../assests/Croped.jpg";
 
 const HomeSection = () => {
   return (
@@ -7,35 +8,35 @@ const HomeSection = () => {
       id="home"
       className="min-vh-100 d-flex align-items-center justify-content-center position-relative"
       style={{
-       // marginLeft: '250px', // Adjust if your sidebar width is different
-        height: '100vh',
-        overflow: 'hidden',
+        // marginLeft: '250px', // Adjust if your sidebar width is different
+        height: "100vh",
+        overflow: "hidden",
       }}
     >
       {/* Dark overlay */}
       <div
         style={{
-          position: 'absolute',
+          position: "absolute",
           top: 0,
           left: 0,
-          height: '100%',
-          width: '100%',
-          backgroundColor: 'rgba(0, 0, 0, 0.64)',
+          height: "100%",
+          width: "100%",
+          backgroundColor: "rgba(0, 0, 0, 0.64)",
           zIndex: 1,
         }}
       ></div>
 
       {/* Background image */}
       <img
-        src={profileImg}
+        src={profilePic}
         alt="Jitesh Kumar"
         style={{
-          position: 'absolute',
+          position: "absolute",
           top: 0,
           left: 0,
-          height: '100%',
-          width: '100%',
-         // objectFit: 'cover',
+          height: "100%",
+          width: "100%",
+          // objectFit: 'cover',
           zIndex: 0,
         }}
       />
@@ -43,17 +44,17 @@ const HomeSection = () => {
       {/* Overlay Text */}
       <div
         style={{
-          position: 'relative',
+          position: "relative",
           zIndex: 1,
-          color: '#fff',
-          textAlign: 'left',
-          marginTop: '10%',
-          paddingLeft: '5%',
-          width: '100%',
+          color: "#fff",
+          textAlign: "left",
+          marginTop: "10%",
+          paddingLeft: "5%",
+          width: "100%",
         }}
       >
-        <h1 style={{ fontSize: '3rem', fontWeight: 'bold' }}>Jitesh Kumar</h1>
-        <p style={{ fontSize: '1.5rem' }}> Full Stack Web Developer</p>
+        <h1 style={{ fontSize: "3rem", fontWeight: "bold" }}>Jitesh Kumar</h1>
+        <p style={{ fontSize: "1.5rem" }}> Full Stack Web Developer</p>
       </div>
     </section>
   );
